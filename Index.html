@@ -35,6 +35,12 @@ nav {
    justify-content:center;
 }
 
+nav > div.nav-item {
+   position: relative;
+   display: flex;
+   flex-direction: column;
+}
+
 nav a {
    color:white;
    padding:15px 18px;
@@ -49,8 +55,8 @@ nav a:hover {
 
 .submenu {
    display:none;
-   width:100%;
    background-color: #1A4B7C;
+   min-width: 200px;
 }
 
 .submenu a {
@@ -105,6 +111,9 @@ footer {
        flex-direction: column;
        align-items: stretch;
    }
+   .submenu {
+       min-width: unset;
+   }
 }
 </style>
 </head>
@@ -120,24 +129,30 @@ footer {
    <a href="#aktualnosci">Aktualności</a>
    <a href="#o-nas">O nas</a>
 
-   <a href="#kronika" onclick="toggleSubmenu('kronikaSub'); return false;">Nowa Kronika Wałbrzyska</a>
-   <div id="kronikaSub" class="submenu">
-       <a href="#tomy">Tomy</a>
-       <a href="#informacje">Informacje</a>
-       <a href="#linki">Linki</a>
+   <div class="nav-item">
+       <a href="#kronika" onclick="toggleSubmenu('kronikaSub'); return false;">Nowa Kronika Wałbrzyska</a>
+       <div id="kronikaSub" class="submenu">
+           <a href="#tomy">Tomy</a>
+           <a href="#informacje">Informacje</a>
+           <a href="#linki">Linki</a>
+       </div>
    </div>
 
-   <a href="#oficyna" onclick="toggleSubmenu('oficynaSub'); return false;">Oficyna Wydawnicza</a>
-   <div id="oficynaSub" class="submenu">
-       <a href="#serie">Serie wydawnicze</a>
-       <a href="#nowosci">Nowości</a>
+   <div class="nav-item">
+       <a href="#oficyna" onclick="toggleSubmenu('oficynaSub'); return false;">Oficyna Wydawnicza</a>
+       <div id="oficynaSub" class="submenu">
+           <a href="#serie">Serie wydawnicze</a>
+           <a href="#nowosci">Nowości</a>
+       </div>
    </div>
 
-   <a href="#promocje" onclick="toggleSubmenu('promocjeSub'); return false;">Promocje i wydarzenia</a>
-   <div id="promocjeSub" class="submenu">
-       <a href="#kronika2">Nowa Kronika Wałbrzyska</a>
-       <a href="#promocjeWydawnictw">Promocje wydawnictw</a>
-       <a href="#spotkania">Spotkania i wydarzenia</a>
+   <div class="nav-item">
+       <a href="#promocje" onclick="toggleSubmenu('promocjeSub'); return false;">Promocje i wydarzenia</a>
+       <div id="promocjeSub" class="submenu">
+           <a href="#kronika2">Nowa Kronika Wałbrzyska</a>
+           <a href="#promocjeWydawnictw">Promocje wydawnictw</a>
+           <a href="#spotkania">Spotkania i wydarzenia</a>
+       </div>
    </div>
 
    <a href="#wizytowka">Wizytówka</a>
@@ -233,7 +248,16 @@ footer {
 
 <section id="promocje">
    <h2>Promocje i wydarzenia</h2>
+   <div id="kronika2">
+       <h3>Nowa Kronika Wałbrzyska</h3>
+       <p>Informacje o promocjach Nowej Kroniki Wałbrzyskiej.</p>
+   </div>
+   <div id="promocjeWydawnictw">
+       <h3>Promocje wydawnictw</h3>
+       <p>Informacje o promocjach wydawnictw.</p>
+   </div>
    <div id="spotkania">
+       <h3>Spotkania i wydarzenia</h3>
        <p>Informacje o wydarzeniach organizowanych przez Fundację.</p>
    </div>
 </section>
@@ -249,7 +273,7 @@ footer {
 </main>
 
 <footer>
-   © 2026 Fundacja Museion
+   © 2025 Fundacja Museion
 </footer>
 
 <script>
