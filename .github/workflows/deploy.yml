@@ -1,4 +1,4 @@
-# Deploy GitHub Pages from index.html
+# Deploy GitHub Pages from www directory
 
 name: Deploy to GitHub Pages
 
@@ -37,7 +37,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload the entire repository root (index.html and associated assets)
+          # Upload the www directory containing index.html and associated assets
           path: 'www'
 
       - name: Deploy to GitHub Pages
