@@ -37,8 +37,9 @@ No build tools or external dependencies are required.
 .
 ├── .github/workflows/
 │   └── deploy.yml        # GitHub Actions workflow for deployment
-├── Images/               # Image assets
-├── index.html            # Main website page
+├── www/
+│   ├── images/           # Image assets
+│   └── index.html        # Main website page
 └── README.md
 ```
 
@@ -57,18 +58,19 @@ The deployment workflow (`.github/workflows/deploy.yml`) is triggered by:
 
 1. The workflow checks out the repository
 2. Configures GitHub Pages
-3. Uploads the entire repository root as an artifact
+3. Uploads the `www` directory as an artifact
 4. Deploys the artifact to GitHub Pages
 
 Only one concurrent deployment is allowed; new deployments wait for in-progress ones to finish.
 
 ## Local Development
 
-To run the website locally, open `index.html` in a web browser. No build step is needed.
+To run the website locally, open `www/index.html` in a web browser. No build step is needed.
 
 Alternatively, use any static file server, for example:
 
 ```bash
+cd www
 python3 -m http.server 8000
 ```
 
