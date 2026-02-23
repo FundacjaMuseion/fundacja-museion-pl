@@ -1,0 +1,15 @@
+title: Fundacja Museion
+description: Official website of Fundacja Museion — a Polish non-profit foundation dedicated to cultural heritage preservation, regional history documentation, and publishing, based in Wałbrzych, Poland.
+url: "https://fundacjamuseion.github.io"
+baseurl: "/fundacja-museion-pl"
+
+source: www
+
+plugins: []
+
+include:
+  - images
+
+exclude:
+  - README.md
+  - .github
