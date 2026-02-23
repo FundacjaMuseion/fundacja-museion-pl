@@ -49,7 +49,7 @@ The site is automatically deployed to **GitHub Pages** using GitHub Actions.
 
 ### Workflow
 
-The deployment workflow (`.github/workflows/deploy.yml`) is triggered by:
+The deployment workflow (`.github/workflows/publish.yml`) is triggered by:
 
 - **Push** to the `main` branch
 - **Manual dispatch** from the GitHub Actions tab
