@@ -28,8 +28,9 @@ This is a static website built with:
 - HTML
 - CSS (embedded)
 - Vanilla JavaScript
+- [Jekyll](https://jekyllrb.com/) — used by GitHub Pages for static site processing
 
-No build tools or external dependencies are required.
+No external frontend dependencies are required.
 
 ## Project Structure
 
@@ -37,9 +38,10 @@ No build tools or external dependencies are required.
 .
 ├── .github/workflows/
 │   └── publish.yaml        # GitHub Actions workflow for deployment
-├── _site/
-│   ├── images/           # Image assets
-│   └── index.html        # Main website page
+├── www/
+│   ├── images/             # Image assets
+│   └── index.html          # Main website page
+├── _config.yml             # Jekyll configuration
 └── README.md
 ```
 
@@ -58,19 +60,27 @@ The deployment workflow (`.github/workflows/publish.yaml`) is triggered by:
 
 1. The workflow checks out the repository
 2. Configures GitHub Pages
-3. Uploads the `_site` directory as an artifact
-4. Deploys the artifact to GitHub Pages
+3. Builds the site using Jekyll
+4. Uploads the Jekyll build output as a Pages artifact
+5. Deploys the artifact to GitHub Pages
 
-Only one concurrent deployment is allowed; new deployments wait for in-progress ones to finish.
+Only one concurrent deployment is allowed; new deployments wait for any in-progress deployment to finish.
 
 ## Local Development
 
-To run the website locally, open `_site/index.html` in a web browser. No build step is needed.
-
-Alternatively, use any static file server, for example:
+To run the website locally, you can open `www/index.html` directly in a web browser, or use Jekyll:
 
 ```bash
-cd _site
+gem install jekyll bundler
+jekyll serve
+```
+
+Then visit `http://localhost:4000` in your browser.
+
+Alternatively, use any static file server:
+
+```bash
+cd www
 python3 -m http.server 8000
 ```
 
