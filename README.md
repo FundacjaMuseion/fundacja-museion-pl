@@ -36,7 +36,7 @@ No build tools or external dependencies are required.
 ```
 .
 ├── .github/workflows/
-│   └── deploy.yml        # GitHub Actions workflow for deployment
+│   └── publish.yaml        # GitHub Actions workflow for deployment
 ├── _site/
 │   ├── images/           # Image assets
 │   └── index.html        # Main website page
@@ -49,7 +49,7 @@ The site is automatically deployed to **GitHub Pages** using GitHub Actions.
 
 ### Workflow
 
-The deployment workflow (`.github/workflows/publish.yml`) is triggered by:
+The deployment workflow (`.github/workflows/publish.yaml`) is triggered by:
 
 - **Push** to the `main` branch
 - **Manual dispatch** from the GitHub Actions tab
