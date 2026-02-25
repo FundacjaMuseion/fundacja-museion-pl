@@ -7,6 +7,9 @@ plugins: ["jekyll-feed", "jekyll-seo-tag", "jekyll-remote-theme"]
 
 include:
   - images
+  - _layouts
+  - assets
+  - _includes
 
 exclude:
   - README.md
