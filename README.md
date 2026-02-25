@@ -28,7 +28,7 @@ This is a static website built with:
 - HTML
 - CSS (embedded)
 - Vanilla JavaScript
-- [Jekyll](https://jekyllrb.com/) — used by GitHub Pages for static site processing
+- [Jekyll](https://jekyllrb.com/) — used by GitHub Pages to build and publish the site
 
 No external frontend dependencies are required.
 
@@ -36,35 +36,16 @@ No external frontend dependencies are required.
 
 ```
 .
-├── .github/workflows/
-│   └── publish.yaml        # GitHub Actions workflow for deployment
 ├── www/
 │   ├── images/             # Image assets
 │   └── index.html          # Main website page
-├── _config.yml             # Jekyll configuration
+├── _config.yml             # Jekyll configuration for GitHub Pages
 └── README.md
 ```
 
 ## Deployment
 
-The site is automatically deployed to **GitHub Pages** using GitHub Actions.
-
-### Workflow
-
-The deployment workflow (`.github/workflows/publish.yaml`) is triggered by:
-
-- **Push** to the `main` branch
-- **Manual dispatch** from the GitHub Actions tab
-
-### How It Works
-
-1. The workflow checks out the repository
-2. Configures GitHub Pages
-3. Builds the site using Jekyll
-4. Uploads the Jekyll build output as a Pages artifact
-5. Deploys the artifact to GitHub Pages
-
-Only one concurrent deployment is allowed; new deployments wait for any in-progress deployment to finish.
+The site is automatically deployed to **GitHub Pages** using the built-in GitHub Pages integration. Deployment is configured via the repository's **GitHub Pages settings** (Settings → Pages), with Jekyll handling the build step.
 
 ## Local Development
 
