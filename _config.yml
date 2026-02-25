@@ -3,8 +3,6 @@ description: Official website of Fundacja Museion — a Polish non-profit founda
 url: "https://fundacjamuseion.github.io"
 baseurl: "/fundacja-museion-pl"
 
-source: www
-
 plugins: []
 
 include:
@@ -13,3 +11,5 @@ include:
 exclude:
   - README.md
   - .github
+
+theme: jekyll-theme-minimal
