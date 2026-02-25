@@ -36,10 +36,9 @@ No external frontend dependencies are required.
 
 ```
 .
-├── www/
-│   ├── images/             # Image assets
-│   └── index.html          # Main website page
-├── _config.yml             # Jekyll configuration for GitHub Pages
+├── images/             # Image assets
+├── index.html          # Main website page
+├── _config.yml         # Jekyll configuration for GitHub Pages
 └── README.md
 ```
 
@@ -49,7 +48,7 @@ The site is automatically deployed to **GitHub Pages** using the built-in GitHub
 
 ## Local Development
 
-To run the website locally, you can open `www/index.html` directly in a web browser, or use Jekyll:
+To run the website locally, you can open `index.html` directly in a web browser, or use Jekyll:
 
 ```bash
 gem install jekyll bundler
@@ -61,7 +60,6 @@ Then visit `http://localhost:4000` in your browser.
 Alternatively, use any static file server:
 
 ```bash
-cd www
 python3 -m http.server 8000
 ```
 
