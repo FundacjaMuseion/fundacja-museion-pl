@@ -154,16 +154,17 @@
       <section id="aktualnosci">
         <h2>Aktualności</h2>
         <div class="news-item">
-          <h3>Promocja "Nowej Kroniki Wałbrzyskiej" t. 11 oraz "Obecności"</h3>
+          <h3>Promocja "Nowej Kroniki Wałbrzyskiej" t. 11 oraz <i>Obecności</i></h3>
           <p style="text-align: justify;">W dniu 27 października 2025 r. w
             Powiatowej i Miejskiej Bibliotece Publicznej „Bibliotece pod
             Atlantami” w Wałbrzychu odbyła się promocja publikacji poświęconej
-            Elżbiecie Kwiatkowskiej-Wyrwisz pt. „Obecność” oraz 11 tomu „Nowej
-            Kroniki Wałbrzyskiej”. Pierwszą część spotkania poświęconą książce
-            poprowadziła Sława Janiszewska. Była to rozmowa z redaktorami:
-            Justyną Gorzkowicz i Wojciechem Klasem. Następnie odbyła się
-            promocja rocznika wydanego pod redakcją Piotra Reteckiego. W obu
-            wydawnictwach miał swój udział grafik Ireneusz Piwowarski.</p>
+            Elżbiecie Kwiatkowskiej-Wyrwisz pt. <i>Obecność </i>oraz 11 tomu
+            „Nowej Kroniki Wałbrzyskiej”. Pierwszą część spotkania poświęconą
+            książce poprowadziła Sława Janiszewska. Była to rozmowa z
+            redaktorami: Justyną Gorzkowicz i Wojciechem Klasem. Następnie
+            odbyła się promocja rocznika wydanego pod redakcją Piotra
+            Reteckiego. W obu wydawnictwach miał swój udział grafik Ireneusz
+            Piwowarski.</p>
           <img src="images/promocjaNKW11iObecnosc.jpg" alt="Zdjęcie aktualności"></div>
         <div class="news-item">
           <h4 style="text-align: justify;">Na zdjęciu od lewej: Wojciech Klas,
@@ -211,12 +212,16 @@
             ukazujący się od 2013 roku</h2>
           <h3>Tomy</h3>
           <div style="text-align: justify;"><img src="file:///C:/Users/Voy/Desktop/GitHub/fundacja-museion-pl/images/NKW1%20Ok%C5%82.jpg"
-              alt="" title="Nowa Kronika Wałbrzyska, T. 1 (2013)" style="width: 278px; height: 400px;"><img
-              src="file:///C:/Users/Voy/Desktop/GitHub/fundacja-museion-pl/images/NKW2%20Ok%C5%82.jpg"
-              alt="" title="Nowa Kronika Wałbrzyska, T. 2 (2014)" style="width: 272px; height: 400px;"></div>
+              alt="" title="Nowa Kronika Wałbrzyska, T. 1 (2013)" style="width: 150px; height: 216px;">&nbsp;
+            <img src="file:///C:/Users/Voy/Desktop/GitHub/fundacja-museion-pl/images/NKW2%20Ok%C5%82.jpg"
+              alt="" title="Nowa Kronika Wałbrzyska, T. 2 (2014)" style="width: 146px; height: 216px;">
+            &nbsp;<img src="file:///C:/Users/Voy/Desktop/GitHub/fundacja-museion-pl/images/NKW3%20Ok%C5%82.jpg"
+              alt="" title="NKW3" style="width: 146px; height: 216px;"> &nbsp; </div>
         </div>
-        <div style="text-align: justify;">Nowa Kronika Wałbrzyska, T. 1 (2013);
-          Nowa Kronika Wałbrzyska, T. 2 (2014)</div>
+        <div style="text-align: justify;">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+          T. 1 (2013)&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; T. 2 (2014)&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; T. 3 (2015)</div>
         <div id="informacje">
           <h3>Informacje</h3>
           <p style="text-align: justify;"><i>Wyzwania redakcyjne i wydawnicze
