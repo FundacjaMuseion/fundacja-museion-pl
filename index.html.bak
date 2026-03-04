@@ -207,15 +207,16 @@
       </section>
       <section id="kronika">
         <h2>Nowa Kronika Wałbrzyska</h2>
-	<img src="images/NKWwizytowka1.jpg"</div>
-            alt="NKWwizytowka1" title="NKWwizytowka1"><br>
-          <h2 style="text-align: center;">"Nowa Kronika Wałbrzyska" - rocznik
-            ukazujący się od 2013 roku</h2>
-          <h3>Tomy</h3>
-          <div style="text-align: justify;"><img src="file:///C:/Users/Voy/Desktop/GitHub/fundacja-museion-pl/images/NKW1_okladka.jpg"
-              alt="NKW1_okladka" title="NKW1_okladka"><br>
-            &nbsp;&nbsp; &nbsp; &nbsp; </div>
-        </div>
+        <img src="images/NKWwizytowka1.jpg" <="" div=""> alt="NKWwizytowka1"
+        title="NKWwizytowka1"&gt;<br>
+        <h2 style="text-align: center;">"Nowa Kronika Wałbrzyska" - rocznik
+          ukazujący się od 2013 roku</h2>
+        <h3>Tomy</h3>
+        <div style="text-align: justify;"><img src="file:///C:/Users/Voy/Desktop/GitHub/fundacja-museion-pl/images/NKW1_okladka.jpg"
+            <alt="NKW1_okladka" title="NKW1_okladka" style="width: 137px; height: 203px;">&nbsp;
+          <img src="file:///C:/Users/Voy/Desktop/GitHub/fundacja-museion-pl/images/NKW2_okladka.jpg"
+            alt="" title="NKW2_okladka"><br>
+          &nbsp;&nbsp; &nbsp; &nbsp; </div>
         <div style="text-align: justify;">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
           T. 1 (2013)&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
           &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; T. 2 (2014)&nbsp;&nbsp;&nbsp;
