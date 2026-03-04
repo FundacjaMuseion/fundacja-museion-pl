@@ -209,10 +209,14 @@
         <div id="tomy"> <img src="images/NKW.jpg" alt="NKW" title="Nowa Kronika Wałbrzyska">
           <h2 style="text-align: center;">"Nowa Kronika Wałbrzyska" - rocznik
             ukazujący się od 2013 roku</h2>
-          <h3></h3>
           <h3>Tomy</h3>
-          <img src="images/NKW1.jpg" alt="" title="Nowa Kronika Wałbrzyska, T. 1 (2013)">
+          <div style="text-align: justify;"><img src="file:///C:/Users/Voy/Desktop/GitHub/fundacja-museion-pl/images/NKW1%20Ok%C5%82.jpg"
+              alt="" title="Nowa Kronika Wałbrzyska, T. 1 (2013)" style="width: 278px; height: 400px;"><img
+              src="file:///C:/Users/Voy/Desktop/GitHub/fundacja-museion-pl/images/NKW2%20Ok%C5%82.jpg"
+              alt="" title="Nowa Kronika Wałbrzyska, T. 2 (2014)" style="width: 272px; height: 400px;"></div>
         </div>
+        <div style="text-align: justify;">Nowa Kronika Wałbrzyska, T. 1 (2013);
+          Nowa Kronika Wałbrzyska, T. 2 (2014)</div>
         <div id="informacje">
           <h3>Informacje</h3>
           <p style="text-align: justify;"><i>Wyzwania redakcyjne i wydawnicze
@@ -248,10 +252,9 @@
           <p><a href="https://jbc.jelenia-gora.pl/dlibra/publication/72475/edition/66663/content">Nowa
               Kronika Wałbrzyska, T. 9 (2023)</a></p>
           <p><a href="https://jbc.jelenia-gora.pl/dlibra/publication/72476/edition/66664/content">Nowa
-              Kronika Wałbrzyska, T. 10 (2024)</a><br>
-            <a href="https://jbc.jelenia-gora.pl/dlibra/publication/16906/edition/16171/content"></a><a
-              href="https://jbc.jelenia-gora.pl/dlibra/publication/14244/edition/13719/content?ref=L2NvbGxlY3Rpb25kZXNjcmlwdGlvbi83NDg"></a></p>
-        </div>
+              Kronika Wałbrzyska, T. 10 (2024)</a></p>
+          <img src="file:///C:/Users/Voy/Desktop/GitHub/fundacja-museion-pl/images/NKWwizyt%C3%B3wka%202.jpeg"
+            alt="" title="NKW wizytówka"> </div>
       </section>
       <section id="oficyna">
         <h2>Oficyna Wydawnicza</h2>
